@@ -40,18 +40,29 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Introduction</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
+        {/* I'm a skilled software developer with experience in TypeScript and
         JavaScript, and expertise in frameworks like React, Node.js, and
         Three.js. I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        real-world problems. Let's work together to bring your ideas to life! */}
+
+        Hi there! I'm an enthusiastic undergraduate pursuing a degree in Data Science and AI. 
+        My passion lies at the intersection of software development, machine learning, 
+        and AI. For me, it's not just about creating products; it's about crafting solutions that truly resonate with and meet the needs of end-users.
+        <br></br>
+        <br></br>
+        I believe in the power of continuous learning and stay updated with the latest 
+        advancements in technology. I'm always exploring new possibilities and embracing 
+        the latest trends. Currently, I'm on the lookout for exciting internship 
+        opportunities to apply and enhance my skills. Let's connect and explore the possibilities together!
+
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
