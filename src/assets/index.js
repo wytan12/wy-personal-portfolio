@@ -27,9 +27,9 @@ import keysight from "./company/keysight.png";
 import nie from "./company/NIE.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import carrent from "./VIFitness.png";
+import jobit from "./fypms.png";
+import tripguide from "./bank.png";
 
 export {
   logo,

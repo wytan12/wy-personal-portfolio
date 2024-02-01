@@ -81,10 +81,10 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -97,14 +97,14 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
+    // {
+    //   name: "git",
+    //   icon: git,
+    // },
     {
       name: "figma",
       icon: figma,
@@ -197,67 +197,64 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "VI Fitness",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Developed a comprehensive web application designed to personalized workout routines and track calories.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "three.js",
           color: "green-text-gradient",
         },
         {
           name: "tailwind",
           color: "pink-text-gradient",
         },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
         {
-          name: "react",
+          name: "express.js",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
+          name: "node.js",
+          color: "pink-text-gradient",
         },
         {
-          name: "scss",
-          color: "pink-text-gradient",
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        
+      ],
+      image: carrent,
+      source_code_link: "https://github.com/wytan12/SC2006-VIFitness",
+    },
+    {
+      name: "FYP Management System",
+      description:
+        "A command-line-based application developed to facilitate the streamlined management of Final Year Projects for both staff and students." ,
+      tags: [
+        {
+          name: "java",
+          color: "blue-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/wytan12/SC2002FYPMS",
     },
     {
-      name: "Trip Guide",
+      name: "Company Bankruptcy Prediction",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Implemented various machine learning models including K-Nearest Neighbors, Random Forest, SVM, and XGBoost to investigate factors leading to company bankruptcy and aimed to identify the most effective model for prediction. ",
       tags: [
         {
-          name: "nextjs",
+          name: "python",
           color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/wytan12/SC1015-Bankruptcy",
     },
   ];
   
