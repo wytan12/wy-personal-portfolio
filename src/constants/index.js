@@ -117,7 +117,7 @@ import {
   
   const experiences = [
     {
-      title: "Tech Intern",
+      title: "R&D Intern",
       company_name: "Keysight Technologies",
       icon: keysight,
       iconBg: "#383E56",
@@ -129,11 +129,11 @@ import {
       ],
     },
     {
-      title: "Software Engineer Intern",
+      title: "Software Engineer, Part Time",
       company_name: "National Institute of Education, Singapore",
       icon: nie,
       iconBg: "#E6DEDD",
-      date: "Dec 2023 - Present",
+      date: "Dec 2023 - Mar 2024",
       points: [
         "Focused on enhancing user experience by implementing an intuitive and user-friendly interface",
         "Ensured the design facilitates a seamless integration with existing knowledge forum",
